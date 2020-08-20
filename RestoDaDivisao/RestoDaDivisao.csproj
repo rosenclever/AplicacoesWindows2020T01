@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Utilitarios\FrmCalculaInvestimento.cs" />
+    <Compile Remove="Utilitarios\FrmCalculaInvestimento.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Utilitarios\FrmCalculaInvestimento.resx" />
+  </ItemGroup>
+
+</Project>
